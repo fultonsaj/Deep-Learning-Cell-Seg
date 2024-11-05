@@ -4,3 +4,9 @@ Here we develop a robust machine vision pipeline for cell and organelle segmenta
 
 ## Pipeline ##
 ![image](https://github.com/user-attachments/assets/a80caee9-71d3-43f1-bea1-c2cc7808269b)
+
+## How to Use ##
+Neural network initiation, training, and testing arecontained within the Jupyter notebook
+
+For setting up Cuda visit:
+https://www.youtube.com/watch?v=r7Am-ZGMef8
