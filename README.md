@@ -3,3 +3,4 @@ Here we develop a robust machine vision pipeline for cell and organelle segmenta
 
 
 ## Pipeline ##
+![image](https://github.com/user-attachments/assets/a80caee9-71d3-43f1-bea1-c2cc7808269b)
