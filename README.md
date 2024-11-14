@@ -4,13 +4,10 @@ Here we develop a robust machine vision pipeline for cell and organelle segmenta
 ## Pipeline ##
 ![image](https://github.com/user-attachments/assets/a80caee9-71d3-43f1-bea1-c2cc7808269b)
 
-## Input Data ##
-Input data should be in the .tif format. We recommend using the attached script to perform extensive augmentation, from which we generated our raw and labeled mask datasets, along with small validation datasets. 
-
 ## How to Use ##
 Neural network initiation, training, and testing are contained within the Jupyter notebook.
 
-### Requirements ###
+#### Requirements ####
 -NVIDIA GPU
 
 -CUDA
@@ -22,18 +19,20 @@ Neural network initiation, training, and testing are contained within the Jupyte
 For setting up Cuda, visit:
 https://www.youtube.com/watch?v=r7Am-ZGMef8
 
-## Example Training Data ##
+## Input Data ##
+Input data should be in the .tif format. We recommend performing extensive augmentation, from which we generated our raw and labeled training datasets, along with small validation datasets. 
+
 Raw data and training labels can be found at https://osf.io/mpysc/.
 
 ![Raw+LabeledTrainingImage](https://github.com/user-attachments/assets/094c190e-a195-435c-8ea7-6d02d96a2f80)
 
 ## Example Analysis ##
-### Cell and Organelle Predictions ###
+#### Cell and Organelle Predictions ####
 Segmentation of platelet cell membrane, mitochondria, and a-granules. 
 
 ![segmentation-results](https://github.com/user-attachments/assets/c1a3b009-ecb3-4dfe-be07-de4fa6e42ded)
 
-### 3D Rendering and Volume Quantification in Amira ###
+#### 3D Rendering and Volume Quantification in Amira ####
 Rendering of platelet cell membrane, mitochondria, and a-granules for quantification of cell morphology.
 
 ![3d-rendering](https://github.com/user-attachments/assets/63681faa-24ca-4129-9349-ac2c618e099e)
