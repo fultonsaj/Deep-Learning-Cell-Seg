@@ -22,7 +22,12 @@ Neural network initiation, training, and testing are contained within the Jupyte
 For setting up Cuda, visit:
 https://www.youtube.com/watch?v=r7Am-ZGMef8
 
-## Examples ##
+## Example Training Data ##
+Raw data and training labels can be found at https://osf.io/mpysc/.
+
+![Raw+LabeledTrainingImage](https://github.com/user-attachments/assets/094c190e-a195-435c-8ea7-6d02d96a2f80)
+
+## Example Analysis ##
 ### Cell and Organelle Predictions ###
 Segmentation of platelet cell membrane, mitochondria, and a-granules. 
 
